@@ -1,0 +1,25 @@
+{
+  "name": "chat-app-in-express-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irtizabatool/chat-app-in-express-mysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irtizabatool/chat-app-in-express-mysql/issues"
+  },
+  "homepage": "https://github.com/irtizabatool/chat-app-in-express-mysql#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}

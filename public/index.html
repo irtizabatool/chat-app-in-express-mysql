@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>JavaScript Chat App</h1>
+    </div>
+    <div id = "container">
+      <div class="select-box">
+        <select id="sender" class="select-sender" name="sender"></select>
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        <input type = "text" name = "smessage" id = "smessage" class="textbox" placeholder="Your Message here">
+        <button id = "buttonS">SEND</button>
+      </div>
+    </div>
+    <div id = "container">
+      <div class="title">
+        <h1 style="color: aliceblue;">Message History</h1>
+      </div>
+      <div id = "messages"></div>
+    </div>
+    <div id = "container">
+      <div class = "select-box">
+        <select id="receiver" class="select-receiver" name = "receiver"></select>
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        <input type = "text" name = "rmessage" id = "rmessage" class="textbox" placeholder="Your Message here">
+        <button id = "buttonR">SEND</button>
+      </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src = "scripts.js"></script>
+  </body>
+</html>

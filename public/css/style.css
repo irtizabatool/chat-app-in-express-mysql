@@ -1,0 +1,164 @@
+* {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  html {
+    font-size: 60%; 
+    box-sizing: border-box;
+  }
+  
+  body{
+    width: 100%;
+    
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    margin-top: 2rem;
+    height: 4rem;
+    display: block;
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #container {
+    margin-left: 2rem;
+    width: 31.5%;
+    height: 60rem;
+    border: .1rem solid rgb(80, 133, 84);
+    display: flex;
+    flex-direction: column;
+    float: left;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 0;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 15px;
+    background-color: rgb(71, 141, 173);
+  }
+  
+  button {
+    font-family: "Oswald", Courier, monospace;
+    width: 75%;
+    position: relative;
+    font: 200 22px Arial;
+    height: 3.5rem;
+    float: left;
+    border-width: 0;
+    border-style: none;
+    margin: .875rem .875rem;
+    border-radius: 10px;
+    background-color: #931dff;
+    justify-content: center;
+  }
+  button:focus{
+    outline: none;
+    box-shadow: 0 0 10px -1px #931dff;
+  }
+  
+  #messages {
+    margin-top: 2rem;
+    width: 98%;
+    height: 55rem;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: rgb(249, 255, 250);
+    margin: .625rem .625rem;
+    flex-direction: column;
+    justify-content: space-around;
+    float:left;
+    padding: 8px;
+    word-wrap: break-word;
+    word-break: break-all;
+    color: rgb(51, 50, 50);
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    scroll-behavior: auto;
+  }
+  
+  .select-box{
+    position: relative;
+    width: 320px;
+    justify-content: center;
+    float: left;
+  }
+  .select-box select{
+    width: 80%;
+    position: relative;
+    border-radius: 50px;
+    font: 200 22px Arial;
+    -webkit-appearance: none;
+    appearance: none;
+    color: #931dff;
+    border: 1px solid #616161;
+  }
+  
+  
+  .select-sender{
+    padding: 18px 30px 18px 105px;
+  }
+  
+  .select-receiver{
+    padding: 18px 30px 18px 120px;
+  }
+  
+  .select-box select:focus{
+    outline: none;
+    box-shadow: 0 0 10px -1px #931dff;
+  }
+  
+  .select-box .label{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-weight: 400;
+    font: 600 22px Arial;
+    color: #750dd4;
+    top: 45px;
+    left: 16px;
+    
+  }
+  
+  .select-box i{
+    position:relative;
+    right: 35px;
+    top: 1.5px;
+    font-size: 18px;
+    color: #616161;
+  }
+  
+  .select-box select:focus +i{
+    color: #931dff;
+  
+  }
+  
+  .select-box input{
+    margin-top: 10px;
+    width: 80%;
+    position: relative;
+    padding: 18px 30px 18px 10px;
+    border-radius: 50px;
+    font: 200 22px Arial;
+    color: #9935f7;
+    border: 1px solid #7616cf;
+  }
+  
+  .select-box input:focus{
+    outline: none;
+    box-shadow: 0 0 10px -1px #931dff;
+  }
+  
